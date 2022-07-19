@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 490px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.massage-section{
+}
+
+.site-haeder {
+    margin: 0 auto;
+    max-width: 530px;
+    background: #6A96D8;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.contact {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
+
+
+.today {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.today__title {
+    padding: 0 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.025em;
+    font-variant: small-caps;
+
+    color: #DDDDDD;
+}
+
+span {
+    padding-top: 20px;
+
+    width: 190px;
+    height: 0;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.massage-list {
+    padding-left: 0;
+}
+
+.massage-item {
+    margin: 0;
+    list-style: none;
+    position: relative;
+    width: 255px;
+    height: 56px;
+    background-color: #E6EDF6;
+
+}
+
+.massage::before {
+    position: absolute;
+    left: -13px;
+    border-top: 15px solid #E6EDF6;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    content: "";
+}
+
+.massage__text {
+    padding: 9px 0 11px 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.send {
+    margin-left: 20px;
+    margin: 0;
+    position: relative;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    width: 253px;
+    height: 56px;
+    background-color: #E6EDF6;
+}
+
+.send::before {
+    position: absolute;
+    right: -13px;
+    border-top: 15px solid #E6EDF6;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    content: "";
+}
+
+.mark {
+    position: relative;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    width: 85px;
+    height: 36px;
+    background-color: #E6EDF6;
+}
+
+.mark::before {
+    position: absolute;
+    left: -13px;
+    border-top: 15px solid #E6EDF6;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    content: "";
+}
+
+.user {
+    
+    position: relative;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    width: 193px;
+    height: 38px;
+    background-color: #FFC2C1;
+
+}
+
+.massage-item:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    max-width: 452px;
+    border: 1x solid #DDDDDD;
+    border-radius: 54px;
+}
+
+
+input {
+    
+
+    margin-left: 10px;
+    outline: none;
+    border: transparent;
+}
+.button {
+    margin-left: 180px;
+    border: transparent;
+    padding: 9px 26px;
+    background: #6A96D8;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    font-variant: small-caps;
+    color: #FFFFFF;
+}
